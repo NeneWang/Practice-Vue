@@ -1,10 +1,12 @@
 <template>
   <header>
     <h1>{{title}}</h1>
+    <Button />
   </header>
 </template>
 
 <script>
+import Button from './Button'
 
 export default {
   name: "Header",
@@ -13,7 +15,8 @@ export default {
           type: String,
           default: "Hello World"
       },
-  }
+  },
+  components: Button,
 };
 </script>
 
