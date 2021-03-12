@@ -10,5 +10,10 @@ export default {
     text: String,
     color: String,
   },
+  methods:{
+      onClick(){
+          console.log(`Clicked: ${this.text}`);
+      }
+  }
 };
 </script>
