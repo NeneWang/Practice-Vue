@@ -21,7 +21,50 @@ export default {
       }
   },
   created(){
-    this.task = [{id: 1, text: "Doctors Appointment", day: "March 1st at 2:30pm", reminder: true}]
+    this.tasks = [
+ {
+   "id": 1,
+   "text": "Doctors Appointment",
+   "day": "March 1st at 2:30",
+   "reminder": true
+ },
+ {
+   "id": 2,
+   "text": "Not Doctors",
+   "day": "March 1st at 2:31",
+   "reminder": true
+ },
+ {
+   "id": 3,
+   "text": "Maincraft Appointment",
+   "day": "March 1st at 2:32",
+   "reminder": false
+ },
+ {
+   "id": 4,
+   "text": "What am I doing with my life",
+   "day": "March 1st at 2:33",
+   "reminder": true
+ },
+ {
+   "id": 5,
+   "text": "Data Structures",
+   "day": "March 1st at 2:34",
+   "reminder": false
+ },
+ {
+   "id": 6,
+   "text": "Reformat",
+   "day": "March 1st at 2:35",
+   "reminder": false
+ },
+ {
+   "id": 7,
+   "text": "GG Yasuo",
+   "day": "March 1st at 2:36",
+   "reminder": true
+ }
+]
   }
 };
 </script>
